@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="../icon/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            
+            <a href="index.html"><img src="../img/logo.png" ></a>
+
+            <div class="nav-links" id="navLinks">
+              
+            
+                <i class="fa-regular fa-rectangle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>
+                We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. Today we’re a forward-looking, diverse community devoted to social justice, restless inquiry and respect for each person’s individual needs and talents..
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+   <center>
+    <section class="course" >
+        <h1>Courses We Offer</h1>
+        <p>
+            Explore the intersection of technology and society. Learn about environmental justice. Take the famous Problem of God course. Our innovative courses inspire and invite you to help solve some of today’s most pressing local, national and global issues.
+        </p>
+    </section>
+   </center>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";   
+        }
+        
+    </script>
+    <!-- All -->
+    <div class="layout_three">
+        <!-- 1 -->
+        <div class="program">
+            <h3 style="text-align: center;">Undergraduate Programs</h3>
+            <p style="text-align: justify;">For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education.</p>
+        </div>
+        <!-- 2 -->
+        <div class="program">
+            <h3 style="text-align: center;">Graduate Programs</h3>
+            <p style="text-align: justify;">Building on our strong roots in leadership, health care and education, Eduford is proud to offer an array of coed graduate programs for women and men who are ready to advance their careers and grow as leaders. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.</p>
+        </div>
+        <!-- 3 -->
+        <div class="program">
+            <h3 style="text-align: center;">Post Graduation</h3>
+            <p style="text-align: justify;">The Eduford, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.</p>
+        </div>
+
+    </div>
+    <div class="global">
+        <h1>Our Global Campus</h1>
+        <p>The University of Hartford's main campus is located on Bloomfield Avenue. Surrounded by green space, the main campus is divided into residential and academic buildings connected by a bridge that overlooks the north branch of the Park River, known to us as Hog River.</p>
+        <div class="campus">
+            <div class="country">
+                <img src="../img/london.png" alt="" >
+                <p>LONDON</p>
+            </div>
+            <div class="country">
+                <img src="../img/newyork.png" alt="">
+                <p>NEW YORK</p>
+            </div>
+            <div class="country">
+                <img src="../img/washington.png" alt="">
+                <p>WASHINGTON</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="factory">
+        <h1>Our Facilities</h1>
+            <p>We commit to meet the financial need of every admitted undergraduate student. We don’t consider your ability to pay when we review your application, and we don’t base our decision on whether you can cover the cost. If you’re accepted here, you belong here.</p>
+        <div class="factory1">
+            <img src="../img/library.png" alt="">
+            <p>World Class Library</p>
+            <p >Pursue research at Eduford’s libraries, which include more than 3.5 million holdings. Whether your focus is on a specific discipline, interdisciplinary areas or emerging fields, our libraries offer academic resources, a maker hub, collaborative spaces and more.</p>
+        </div>
+        <div class="factory1">
+            <img src="../img/basketball.png" alt="">
+        </div>
+        <div class="factory1">
+            <img src="../img/cafeteria.png" alt="">
+        </div>
+
+    </div>
+        <footer>
+        <p>Contact By</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </footer>
+    
+</body>
+</html>
